@@ -1,7 +1,10 @@
 const axios = require("axios");
-const data = async (state) => {
+const data = async (stateName = null) => {
   let url = "https://api.covid19india.org/data.json";
   const data = await axios.get(url);
-  return data.data.statewise;
+  if (!stateName) return data.data.statewise;
+  return data.data.statewise.filter((stateData) => {
+    return stateData.state.toLowerCase() === stateName.toLowerCase();
+  });
 };
 module.exports = data;

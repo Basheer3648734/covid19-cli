@@ -4,7 +4,8 @@
   "description": "a cli tool to track the covid 19 in India",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "state": "node app.js list --state"
   },
   "author": "M.A.Basheer",
   "license": "ISC",

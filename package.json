@@ -4,7 +4,7 @@
   "description": "a cli tool to track the covid 19 in India",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
+    "start": "node app.js list",
     "state": "node app.js list --state"
   },
   "author": "M.A.Basheer",

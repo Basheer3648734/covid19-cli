@@ -4,10 +4,12 @@ a cli tool to keep track of covid-19 india
 
 ### commands
 
-- To check the status of all states
+- TO get Started
   > npm start
+- To check the status of all states
+  > covid list
 - to check the status of a specific state
-  > npm run state \<stateName\>
+  > covid list --state \<stateName\>
 
 ###### resources :
 

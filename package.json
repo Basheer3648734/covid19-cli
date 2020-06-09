@@ -15,7 +15,9 @@
     "url": "https://github.com/Basheer3648734/covid19-cli.git"
   },
   "main": "cli.js",
-  "scripts": {},
+  "scripts": {
+    "start": "npm link"
+  },
   "bin": {
     "covid": "./cli.js"
   },

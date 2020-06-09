@@ -1,12 +1,17 @@
 # covid-19 cli
 
-a cli tool to keep track of covid-19 india
+a cli tool to keep track of covid-19 India
 
 ### commands
 
-- To check the status of all states
-  > npm start
-- to check the status of a specific state
-  > npm run state \<stateName\>
+- To install
+  > npm i -g covid19_cli
+  > covid list
+- To check the data for specific state / U.T.
+  > covid list -s \<state-name\>
+  > or
+  > covid list --state \<state-name\>
 
-###### resources : [covid-19 api](https://api.covid19india.org/)
+###### resources :
+
+[covid-19 api](https://api.covid19india.org/)

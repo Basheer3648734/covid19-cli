@@ -2,12 +2,23 @@
   "name": "covid19_cli",
   "version": "1.0.0",
   "description": "a cli tool to track the covid 19 in India",
-  "main": "app.js",
-  "scripts": {
-    "start": "node app.js list",
-    "state": "node app.js list --state"
+  "author": "M.A.Basheer <mabasheer9059@gmail.com>",
+  "keywords": [
+    "covid",
+    "covid19",
+    "covid19-cli",
+    "cli"
+  ],
+  "homepage": "https://github.com/Basheer3648734/covid19-cli",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Basheer3648734/covid19-cli.git"
   },
-  "author": "M.A.Basheer",
+  "main": "cli.js",
+  "scripts": {},
+  "bin": {
+    "covid": "./cli.js"
+  },
   "license": "ISC",
   "dependencies": {
     "axios": "^0.19.2",

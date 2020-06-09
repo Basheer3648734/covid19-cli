@@ -1,5 +1,5 @@
 {
-  "name": "covid19_cli",
+  "name": "covid_cli",
   "version": "1.0.0",
   "description": "a cli tool to track covid 19 in India",
   "author": "M.A.Basheer <mabasheer9059@gmail.com>",

@@ -16,6 +16,6 @@ a cli tool to keep track of covid-19 India
 
   > covid list --state \<state-name\>
 
-###### resources :
+#### resources :
 
 [covid-19 api](https://api.covid19india.org/)
